@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfortrip</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <!-- <header class="header">
+        <div class="container">
+            <span class="header__time">9:41</span>
+            <div class="header__widget-inner">
+                <ul>
+                    <li><img src="img/header/MobileSignal.svg" alt=""></li>
+                    <li><img src="img/header/Wifi.svg" alt=""></li>
+                    <li><img src="img/header/Battery.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </header> -->
+    <section class="way">
+        <div class="container">
+           <div class="way__wrapper">
+                <div class="way__title">
+                    <div class="way__title-stop">
+                        next stop
+                    </div>
+                    <div class="way__title-station">
+                        Petrovka
+                    </div>
+                </div>
+                <div class="way__inner">
+                    <div class="way__border"></div>
+                    <div class="way__inner-link">
+                        <ul>
+                            <li class="way__link-green"><img src="img/way/radio-green.svg" alt=""></li>
+                            <li class="way__link-border"></li>
+                            <li class="way__link"><img src="img/way/way-circle.svg" alt=""></li>
+                            <li class="way__link-border1"></li>
+                            <li class="way__link"><img src="img/way/way-circle.svg" alt=""></li>
+                            <li class="way__link-border2"></li>
+                            <li class="way__link"><img src="img/way/way-circle.svg" alt=""></li>
+                            <li class="way__link-border3"></li>
+                            <li class="way__link"><img src="img/way/way-circle.svg" alt=""></li>
+                            <li class="way__link-border4"></li>
+                            <li class="way__link"><img src="img/way/way-circle.svg" alt=""></li>
+                            <li class="way__link-border5"></li>
+                            <li class="way__continue"><img src="img/way/continua.svg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="way__time-inner">
+                        <div class="way__number-stops">
+                            <div class="way__number-title">
+                                Stops left
+                            </div>
+                            <span class="way__number">7</span>
+                        </div>
+                        <div class="way__time">
+                            <div class="way__time-title">
+                                Time left
+                            </div>
+                            <span class="way__about">~22 </span>min 
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+
+
+        <footer class="footer footer__ticket">
+            <div class="container">
+                <div class="footer__inner">
+                    <img class="footer__img-bus-green" src="img/main/footer-bus.svg" alt="">
+                   <a href="#"><img class="footer__img-ticket" src="img/footer-ticketgreen.svg" alt=""></a>
+                    <a href="#main.html" data-mfp-src="#modal__way" class="open-popup-link"><img class="footer__img-clock" src="img/main/footer-clock.svg" alt=""></a>
+                    <img class="footer__img-settings" src="img/main/footer-settings.svg" alt="">
+                </div>
+            </div>
+        </footer>
+        <!-- <div class="footer__line"></div> -->
+    </section> 
+
+
+<!-- ----------- end popup----------------- -->
+    <div id="modal__way" class="white-popup mfp-hide">
+        <div class="container">
+           <div class="modal__rout-number">№737</div>
+           <div class="modal__stop-inner">
+               <div class="modal__stop-rout">
+                   <ul>
+                       <li class="modal__stop-bus stop-color"><img src="img/way/radio-green.svg" alt="">Petrovka </li>
+                       <li class="modal__stop-border"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Dehtyarivska
+                         <span class="modal__stop-time"> 3 min</span>
+                        </li>
+                       <li class="modal__stop-border1"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Dehtyarivska
+                        <span class="modal__stop-time"> 7 min</span>
+                    </li>
+                       <li class="modal__stop-border2"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Petrovka
+                        <span class="modal__stop-time1"> 11 min</span>
+                    </li>
+                       <li class="modal__stop-border3"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Dehtyarivska
+                        <span class="modal__stop-time"> 14 min</span>
+                    </li>
+                       <li class="modal__stop-border4"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Petrovka 
+                        <span class="modal__stop-time2"> 16 min</span>
+                    </li>
+                       <li class="modal__stop-border5"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Petrovka
+                        <span class="modal__stop-time3"> 17 min</span>
+                    </li>
+                       <li class="modal__stop-border6"></li>
+                       <li class="modal__stop"><img src="img/main/radio2.svg" alt="">Dehtyarivska
+                        <span class="modal__stop-time"> 22 min</span>
+                    </li>
+                   </ul>
+               </div>
+           </div>
+           <span></span>
+        </div>
+    </div>
+    <!-- ----------- end popup----------------- -->
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
